@@ -1,0 +1,22 @@
+{
+	"name": "ts-lab",
+	"version": "1.0.0",
+	"description": "",
+	"main": "namespace.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"build": "tsc --build tsconfig.json --watch",
+		"nodemon": "nodemon ./build/app.js --config nodemon.json"
+	},
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"@types/jquery": "^3.3.29",
+		"concurrently": "^4.0.1",
+		"nodemon": "^1.18.4"
+	},
+	"dependencies": {
+		"jquery": "^3.3.1",
+		"reflect-metadata": "^0.1.12"
+	}
+}
